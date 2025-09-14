@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "process",
+			"command": "./build.sh",
+			"windows": {
+				"command": ".\\build.bat",
+			},
+			"label": "Build & Copy",
+			"group": "build"
+		}
+	]
+}

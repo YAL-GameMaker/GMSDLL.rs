@@ -1,0 +1,1 @@
+cargo build --release && copy /Y target\release\rust_gm.dll rust_gm_test\extensions\rust_gm\rust_gm.dll

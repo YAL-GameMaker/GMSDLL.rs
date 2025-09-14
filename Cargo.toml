@@ -1,0 +1,11 @@
+[package]
+name = "rust_gm"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "rust_gm"
+crate-type = ["rlib", "cdylib"]
+
+[dependencies]
+libc = "0.2.85"
