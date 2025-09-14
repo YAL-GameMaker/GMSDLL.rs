@@ -49,6 +49,11 @@ and that's it! This is an actual pointer to buffer data so you can also write to
 but note that you'll need to call `buffer_set_used_size` afterwards if you're populating
 a freshly made buffer with data.
 
+### Mac OS support
+Compile a DyLib/SO and add it as a separate Proxy File to the extension using the GameMaker IDE.
+
+I don't have a functioning Mac to test this.
+
 ## Special thanks
 - [Jacob](https://jacobsdot.tumblr.com) for answering my general "and how do you do X here" Rust questions
 - [Dashiell](https://dashiellwas.cool) for explaining the particularities of Rust's `static` and a few other bits
