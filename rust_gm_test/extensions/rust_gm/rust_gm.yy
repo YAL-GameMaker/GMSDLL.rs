@@ -43,7 +43,9 @@
             2,
             2,
           ],"externalName":"rust_buffer_inc","help":"rust_buffer_inc(buf, size, delta)","hidden":false,"argCount":0,"documentation":"",},
-      ],"constants":[],"ProxyFiles":[],"copyToTargets":-1,"usesRunnerInterface":false,"order":[],},
+      ],"constants":[],"ProxyFiles":[
+        {"resourceType":"GMProxyFile","resourceVersion":"1.0","name":"rust_gm.so","TargetMask":7,},
+      ],"copyToTargets":-1,"usesRunnerInterface":false,"order":[],},
   ],
   "HTML5CodeInjection": "",
   "classname": "",
